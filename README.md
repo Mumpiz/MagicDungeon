@@ -6,4 +6,4 @@ Each item the player can find is generated (not precoded). So there are thousand
 
 There are no enemies yet.
 
-<img src= docs/img/game.jpg width= "50%"> </img>
+<img src= docs/game.jpg width= "50%"> </img>
