@@ -10,36 +10,36 @@ SetBlend ALPHABLEND
 
 
 ' Tileset
-	Incbin "tileset.png"
-	Global Img_Tileset:TImage = LoadAnimImage("incbin::tileset.png", 32, 32, 0, 9)
+	Incbin "assets/img/tileset.png"
+	Global Img_Tileset:TImage = LoadAnimImage("incbin::assets/img/tileset.png", 32, 32, 0, 9)
 	
 ' Player
-	Incbin "Player.png"
-	Global Img_Player:TImage = LoadImage("incbin::Player.png")
+	Incbin "assets/img/Player.png"
+	Global Img_Player:TImage = LoadImage("incbin::assets/img/Player.png")
 
 ' Lichtradius
-	Incbin "LightRadius.png"
-	Global Img_LightRadius:TImage = LoadImage("incbin::LightRadius.png")
+	Incbin "assets/img/LightRadius.png"
+	Global Img_LightRadius:TImage = LoadImage("incbin::assets/img/LightRadius.png")
 
 ' Panel
-	Incbin "panel.png"
-	Global Img_Panel:TImage = LoadImage("incbin::panel.png")
+	Incbin "assets/img/panel.png"
+	Global Img_Panel:TImage = LoadImage("incbin::assets/img/panel.png")
 	
 ' Lootbox
-	Incbin "lootbox.png"
-	Global Img_Lootbox:TImage = LoadImage("incbin::lootbox.png")
+	Incbin "assets/img/lootbox.png"
+	Global Img_Lootbox:TImage = LoadImage("incbin::assets/img/lootbox.png")
 	
 ' WearItems
-	Incbin "items1.png"
-	Global Img_WearItems:TImage = LoadAnimImage("incbin::items1.png", 32, 32, 0, 18)
+	Incbin "assets/img/items1.png"
+	Global Img_WearItems:TImage = LoadAnimImage("incbin::assets/img/items1.png", 32, 32, 0, 18)
 	
 ' StackItems
-	Incbin "items2.png"
-	Global Img_StackItems:TImage = LoadAnimImage("incbin::items2.png", 32, 32, 0, 9)
+	Incbin "assets/img/items2.png"
+	Global Img_StackItems:TImage = LoadAnimImage("incbin::assets/img/items2.png", 32, 32, 0, 9)
 
 ' Font
-	Incbin "KeltCapsFreehand.ttf"
-	Global Fnt_Kelt:TImageFont = LoadImageFont("Incbin::KeltCapsFreehand.ttf", 15)
+	Incbin "assets/font/KeltCapsFreehand.ttf"
+	Global Fnt_Kelt:TImageFont = LoadImageFont("Incbin::assets/font/KeltCapsFreehand.ttf", 15)
 	SetImageFont(Fnt_Kelt)
 	
 
