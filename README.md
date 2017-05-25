@@ -5,3 +5,5 @@ Each dungeon is randomly generated.
 Each item the player can find is generated (not precoded). So there are thousands of possible items.
 
 There are no enemies yet.
+
+<img src= docs/img/game.jpg width= "50%"> </img>
