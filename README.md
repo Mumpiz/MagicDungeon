@@ -1,6 +1,6 @@
 # MagicDungeon
 
-MagicDungeon is a startingpoint for a rouglike dungeon crawler game.
+MagicDungeon is a startingpoint for a roguelike dungeon crawler game.
 Each dungeon is randomly generated.
 Each item the player can find is generated (not precoded). So there are thousands of possible items.
 
